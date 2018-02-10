@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a59052a48d52de32bafdfe8ab313e715",
+    "content-hash": "fdfafff32e3485080317acc228eeae46",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -230,112 +230,6 @@
                 "preload"
             ],
             "time": "2017-12-10T11:40:39+00:00"
-        },
-        {
-            "name": "cnvs/easel",
-            "version": "v3.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cnvs/easel.git",
-                "reference": "3fb73197254348b4310f58f6be12b3ace0580667"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cnvs/easel/zipball/3fb73197254348b4310f58f6be12b3ace0580667",
-                "reference": "3fb73197254348b4310f58f6be12b3ace0580667",
-                "shasum": ""
-            },
-            "require": {
-                "barryvdh/laravel-ide-helper": "^2.3",
-                "doctrine/dbal": "^2.5",
-                "erusev/parsedown": "^1.6",
-                "illuminate/support": "5.*",
-                "larapack/config-writer": "^1.0",
-                "laravel/scout": "2.*",
-                "maatwebsite/excel": "^2.1",
-                "php": ">=5.6.4",
-                "talvbansal/media-manager": "^2.5",
-                "teamtnt/laravel-scout-tntsearch-driver": "2.*"
-            },
-            "require-dev": {
-                "fzaninotto/faker": "~1.4",
-                "mockery/mockery": "0.9.*",
-                "symfony/css-selector": "~3.0",
-                "symfony/dom-crawler": "~3.0"
-            },
-            "suggest": {
-                "cnvs/paper-dark": "Official dark theme for Canvas."
-            },
-            "type": "canvas-framework",
-            "autoload": {
-                "classmap": [
-                    "database"
-                ],
-                "psr-4": {
-                    "Canvas\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Todd Austin",
-                    "email": "austin.todd.j@gmail.com"
-                }
-            ],
-            "description": "Canvas Framework",
-            "keywords": [
-                "canvas",
-                "framework"
-            ],
-            "time": "2017-08-04T01:13:12+00:00"
-        },
-        {
-            "name": "cnvs/paper-dark",
-            "version": "v1.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cnvs/paper-dark.git",
-                "reference": "5dc27f4eff7e104e03bdb9d9bbb0d93b6882b9fd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cnvs/paper-dark/zipball/5dc27f4eff7e104e03bdb9d9bbb0d93b6882b9fd",
-                "reference": "5dc27f4eff7e104e03bdb9d9bbb0d93b6882b9fd",
-                "shasum": ""
-            },
-            "require": {
-                "cnvs/easel": "*"
-            },
-            "type": "canvas-theme",
-            "extra": {
-                "canvas-theme": {
-                    "title": "Paper Dark",
-                    "directories": {
-                        "public": "public",
-                        "views": "resources/views"
-                    }
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Patrick Reid",
-                    "email": "reliq@reliqarts.com"
-                }
-            ],
-            "description": "Canvas Dark Theme",
-            "keywords": [
-                "canvas",
-                "dark",
-                "theme"
-            ],
-            "time": "2017-07-06T02:04:26+00:00"
         },
         {
             "name": "dflydev/apache-mime-types",
@@ -1706,6 +1600,115 @@
                 "schedule"
             ],
             "time": "2017-01-23T04:29:33+00:00"
+        },
+        {
+            "name": "nan-apps/easel",
+            "version": "dev-formento-core",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nan-apps/easel.git",
+                "reference": "1777885e0c382ada6218af7c399d49f209d6aa69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nan-apps/easel/zipball/1777885e0c382ada6218af7c399d49f209d6aa69",
+                "reference": "1777885e0c382ada6218af7c399d49f209d6aa69",
+                "shasum": ""
+            },
+            "require": {
+                "barryvdh/laravel-ide-helper": "^2.3",
+                "doctrine/dbal": "^2.5",
+                "erusev/parsedown": "^1.6",
+                "illuminate/support": "5.*",
+                "larapack/config-writer": "^1.0",
+                "laravel/scout": "2.*",
+                "maatwebsite/excel": "^2.1",
+                "php": ">=5.6.4",
+                "talvbansal/media-manager": "^2.5",
+                "teamtnt/laravel-scout-tntsearch-driver": "2.*"
+            },
+            "require-dev": {
+                "fzaninotto/faker": "~1.4",
+                "mockery/mockery": "0.9.*",
+                "symfony/css-selector": "~3.0",
+                "symfony/dom-crawler": "~3.0"
+            },
+            "suggest": {
+                "cnvs/paper-dark": "Official dark theme for Canvas."
+            },
+            "type": "canvas-framework",
+            "autoload": {
+                "classmap": [
+                    "database"
+                ],
+                "psr-4": {
+                    "Canvas\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gaston Nan",
+                    "email": "gaston@nan-apps.com"
+                }
+            ],
+            "description": "Canvas Framework",
+            "keywords": [
+                "canvas",
+                "framework"
+            ],
+            "support": {
+                "source": "https://github.com/nan-apps/easel/tree/formento-core"
+            },
+            "time": "2018-02-09 14:53:06"
+        },
+        {
+            "name": "nan-apps/formento-theme",
+            "version": "dev-formento",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nan-apps/formento-theme.git",
+                "reference": "cc946cde8a932cde463f053dcf1139ebd99ab4ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nan-apps/formento-theme/zipball/cc946cde8a932cde463f053dcf1139ebd99ab4ab",
+                "reference": "cc946cde8a932cde463f053dcf1139ebd99ab4ab",
+                "shasum": ""
+            },
+            "require": {
+                "nan-apps/easel": "dev-formento-core"
+            },
+            "type": "canvas-theme",
+            "extra": {
+                "canvas-theme": {
+                    "title": "Formento",
+                    "directories": {
+                        "public": "public",
+                        "views": "resources/views"
+                    }
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gaston Nan",
+                    "email": "gaston@nan-apps.com"
+                }
+            ],
+            "description": "Formento Theme",
+            "keywords": [
+                "canvas",
+                "theme"
+            ],
+            "support": {
+                "source": "https://github.com/nan-apps/formento-theme/tree/formento"
+            },
+            "time": "2018-02-09 15:47:43"
         },
         {
             "name": "nesbot/carbon",
@@ -4832,7 +4835,10 @@
     ],
     "aliases": [],
     "minimum-stability": "beta",
-    "stability-flags": [],
+    "stability-flags": {
+        "nan-apps/easel": 20,
+        "nan-apps/formento-theme": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

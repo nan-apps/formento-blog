@@ -1,19 +1,29 @@
 {
-    "name": "cnvs/canvas",
-    "description": "Simple, Powerful Blog Publishing Platform",
+    "name": "nan-apps/formento-blog",
+    "description": "Forked from: cnvs/canvas. Simple, Powerful Blog Publishing Platform",
     "keywords": ["php", "laravel", "blog", "canvas"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Todd Austin",
-            "email": "austin.todd.j@gmail.com"
+            "name": "Gaston Nan",
+            "email": "gaston@nan-apps.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nan-apps/formento-theme"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nan-apps/easel"
         }
     ],
     "require": {
-        "cnvs/paper-dark": "*",
+        "nan-apps/easel": "dev-formento-core",
+        "nan-apps/formento-theme": "dev-formento",
         "doctrine/dbal": "2.5.*",
         "fzaninotto/faker": "~1.4",
-        "cnvs/easel": "3.4.*",
         "laravel/framework": "5.3.*",
         "barryvdh/laravel-debugbar": "^2.3"
     },
