@@ -18,8 +18,8 @@
 <meta property="og:image" content="@yield('og-image')">
 <meta property="og:image:width" content="800">
 <meta property="og:description" content="@yield('og-description')">
-<meta name="og:type" content="article">
-<meta name="og:site_name" content="{{ \Canvas\Models\Settings::blogTitle() }}">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="{{ \Canvas\Models\Settings::blogTitle() }}">
 
 <!-- Twitter Cards -->
 <meta name="twitter:title" content="@yield('twitter-title')">
