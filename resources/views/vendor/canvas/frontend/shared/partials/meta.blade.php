@@ -13,11 +13,12 @@
 <link rel="icon" type="image/png" href="{{ asset('vendor/canvas/assets/images/favicon.png') }}">
 
 <!-- Facebook Open Graph Tags -->
+<meta property="og:url" content="@yield('og-url')">
 <meta property="og:title" content="@yield('og-title')">
 <meta property="og:image" content="@yield('og-image')">
 <meta property="og:image:width" content="800">
 <meta property="og:description" content="@yield('og-description')">
-<meta name="og:type" content="blog">
+<meta name="og:type" content="article">
 <meta name="og:site_name" content="{{ \Canvas\Models\Settings::blogTitle() }}">
 
 <!-- Twitter Cards -->
