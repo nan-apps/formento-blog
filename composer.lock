@@ -1671,12 +1671,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nan-apps/formento-theme.git",
-                "reference": "167ef964ae39f2878f58df435f0bba66bc77e612"
+                "reference": "0fd54b3b4b361aff0076b2ab37b595ac4476ad81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nan-apps/formento-theme/zipball/167ef964ae39f2878f58df435f0bba66bc77e612",
-                "reference": "167ef964ae39f2878f58df435f0bba66bc77e612",
+                "url": "https://api.github.com/repos/nan-apps/formento-theme/zipball/0fd54b3b4b361aff0076b2ab37b595ac4476ad81",
+                "reference": "0fd54b3b4b361aff0076b2ab37b595ac4476ad81",
                 "shasum": ""
             },
             "require": {
@@ -1709,7 +1709,7 @@
             "support": {
                 "source": "https://github.com/nan-apps/formento-theme/tree/formento"
             },
-            "time": "2018-06-01 14:20:22"
+            "time": "2018-06-01 14:44:14"
         },
         {
             "name": "nesbot/carbon",
